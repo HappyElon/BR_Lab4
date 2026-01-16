@@ -1,0 +1,9 @@
+VAR
+	AxisX_DrvIf : SdcDrvIf16_typ := (0);
+	AxisX_EncIf : SdcEncIf16_typ := (0);
+	AxisX_DiDoIf : SdcDiDoIf_typ := (0);
+	AxisX_HW : SdcHwCfg_typ := (0);
+	fb_regulator : FB_Regulator;
+	iPosHwEnd : BOOL := FALSE;
+	iNegHwEnd : BOOL := FALSE;
+END_VAR
